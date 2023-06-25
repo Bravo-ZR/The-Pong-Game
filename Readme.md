@@ -1,3 +1,6 @@
+![image](https://github.com/Bravo-ZR/The-Pong-Game/assets/102037087/2d48955c-cf50-4a58-b335-1fa22993723b)
+
+
 # 🗎 The Pong Game
 >It's a famous two player arcade game from the old days.  
 This version of the game is made with python and the [turtle](https://docs.python.org/3/library/turtle.html) module.

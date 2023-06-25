@@ -18,10 +18,10 @@ move1 = Movement(r_paddle)
 move2 = Movement(l_paddle)
 
 screen.listen()
-screen.onkeypress(key='w',fun=move1.up)
-screen.onkeypress(key='s',fun=move1.down)
-screen.onkeypress(key='Up',fun=move2.up)
-screen.onkeypress(key='Down',fun=move2.down)
+screen.onkeypress(key='Up',fun=move1.up)
+screen.onkeypress(key='Down',fun=move1.down)
+screen.onkeypress(key='w',fun=move2.up)
+screen.onkeypress(key='s',fun=move2.down)
 
 game_on = True
 while game_on:

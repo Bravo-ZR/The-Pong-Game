@@ -32,18 +32,18 @@ while game_on:
     if ball.ycor() > 270 or ball.ycor() < -270:
         ball.bounceY()
         
-        
+    #Collision with Paddle    
     if ball.distance(r_paddle) < 50 and ball.xcor() > 320 or ball.distance(l_paddle) < 50 and ball.xcor() < -320:
         ball.bounceX()
         
-        
+    #Checks if the ball has made past the right paddle  
     if ball.xcor() > 380:
         ball.setposition(0,0)
         ball.bounceX()
         ball.speed = 0.1
         scoreboard.r_point()
         
-        
+    #Checks if the ball has made past the left paddle    
     if ball.xcor() < -380:
         ball.setposition(0,0)
         ball.speed = 0.1
